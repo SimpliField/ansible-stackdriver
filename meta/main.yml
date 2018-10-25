@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: stackdriver
   author: Sébastien Elet
   description: Setup stackdriver agent
   company: SimpliField
