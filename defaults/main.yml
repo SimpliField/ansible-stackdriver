@@ -1,0 +1,4 @@
+---
+stackdriver_collectd_package: stackdriver-agent
+stackdriver_package_repo: http://repo.stackdriver.com/apt
+stackdriver_enabled_plugins: []

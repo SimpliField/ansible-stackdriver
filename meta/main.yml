@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Sébastien Elet
+  description: Setup stackdriver agent
+  company: SimpliField
+  license: BSD
+  min_ansible_version: 2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+  galaxy_tags:
+    - GCP
+    - Stackdriver
+
+dependencies: []
