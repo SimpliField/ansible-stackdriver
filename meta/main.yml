@@ -13,4 +13,5 @@ galaxy_info:
     - GCP
     - Stackdriver
 
-dependencies: []
+dependencies:
+- role: SimpliField.google_auth
