@@ -1,4 +1,7 @@
 ---
 stackdriver_collectd_package: stackdriver-agent
-stackdriver_package_repo: http://repo.stackdriver.com/apt
+stackdriver_package_repo_gpg: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+stackdriver_package_repo: http://packages.cloud.google.com/apt
+stackdriver_package_repo_codename_prefix: google-cloud-monitoring-
+stackdriver_package_repo_codename_suffix: ''
 stackdriver_enabled_plugins: []

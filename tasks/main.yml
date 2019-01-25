@@ -1,14 +1,14 @@
 ---
 - name: "add stackdriver's gpg key"
   apt_key: 
-    url: "https://app.stackdriver.com/RPM-GPG-KEY-stackdriver" 
+    url: "{{ stackdriver_package_repo_gpg }}"
     state: present
   tags:
     - stackdriver
 
 - name: "add the stackdriver apt repository."
   apt_repository:
-    repo: "deb {{ stackdriver_package_repo }} {{ ansible_lsb.codename }} main"
+    repo: "deb {{ stackdriver_package_repo }} {{stackdriver_package_repo_codename_prefix}}{{ ansible_lsb.codename }}{{stackdriver_package_repo_codename_suffix}} main"
     state: present
   tags:
     - stackdriver
